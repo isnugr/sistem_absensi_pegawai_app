@@ -172,7 +172,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                   sizedBoxH4,
                   const Text(
-                    'SiAP Balaesang',
+                    'SiAP',
                     style: TextStyle(
                         color: Colors.white, fontWeight: FontWeight.w700),
                   )
@@ -193,7 +193,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: const <Widget>[
                       Spacer(),
-                      Text('SiAP Balaesang',
+                      Text('SiAP',
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.w700)),
@@ -203,36 +203,6 @@ class _SplashScreenState extends State<SplashScreen> {
                     ],
                   ),
                   const SizedBox(height: 10.0),
-                  Container(
-                    width: Get.width * 0.6,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(6),
-                    ),
-                    child: IntrinsicHeight(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          const Spacer(),
-                          Image.asset(
-                            'assets/logo/banuacoders.png',
-                            width: Get.width * 0.25,
-                            fit: BoxFit.fitHeight,
-                          ),
-                          const Spacer(),
-                          verticalDiv,
-                          const Spacer(),
-                          Image.asset(
-                            'assets/logo/balaesang.png',
-                            width: Get.width * 0.25,
-                            fit: BoxFit.scaleDown,
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 30.0),
                 ],
               ),
             ),

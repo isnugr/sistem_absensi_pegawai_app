@@ -85,14 +85,14 @@ class ForgotPassScreen extends StatelessWidget {
                           children: <Widget>[
                             sizedBoxH16,
                             const Text(
-                              'Fajrian Aidil Pratama',
+                              'Bapak Bapak',
                               style: TextStyle(
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
                             const Text(
-                              'Administrator\nFounder of @BanuaCoders',
+                              'Administrator\nPembuat Aplikasi',
                               style: TextStyle(color: Colors.grey),
                               textAlign: TextAlign.center,
                             ),

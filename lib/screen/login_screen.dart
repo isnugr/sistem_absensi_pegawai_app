@@ -305,7 +305,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           fontWeight: FontWeight.w500),
                     ),
                     Text(
-                      'Sistem Absensi Pegawai Online by Banua Coders ',
+                      'Sistem Absensi Pegawai Online ',
                       style: TextStyle(
                           color: Colors.grey,
                           fontSize: 12.0,
